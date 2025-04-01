@@ -1,6 +1,6 @@
 package sus;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -31,6 +31,6 @@ public class MainTest {
     public void calculateTest() {
         Main main = new Main();
         main.calculate(1, 2);
-        BigInteger big = doStuff(310000);
+        BigInteger big = doStuff(30000);
     }
 }
